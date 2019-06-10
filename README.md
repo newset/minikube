@@ -55,6 +55,8 @@ As well as developer-friendly features:
 
 ## Installation
 
+> 墙内安装
+
 ```
 curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v1.1.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 ```
