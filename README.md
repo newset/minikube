@@ -61,6 +61,11 @@ As well as developer-friendly features:
 curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v1.1.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 ```
 
+> 安装Kubernetes v1.12.1
+```
+minikube start --registry-mirror=https://registry.docker-cn.com --kubernetes-version v1.12.1
+```
+
 See the [installation guide](https://kubernetes.io/docs/tasks/tools/install-minikube/). For the impatient, here is the TL;DR:
 
 * *macOS 10.12 (Sierra)*
