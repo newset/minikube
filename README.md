@@ -52,21 +52,12 @@ As well as developer-friendly features:
 * [Advanced Topics and Tutorials](https://github.com/kubernetes/minikube/blob/master/docs/README.md)
 * [Contributors Guide](https://github.com/kubernetes/minikube/blob/master/docs/contributors/README.md)
 
-## Community
-
-![Help Wanted!](/images/help_wanted.jpg)
-
-minikube is a Kubernetes [#sig-cluster-lifecycle](https://github.com/kubernetes/community/tree/master/sig-cluster-lifecycle)  project.
-
-* [**#minikube on Kubernetes Slack**](https://kubernetes.slack.com) - Live chat with minikube developers!
-* [minikube-users mailing list](https://groups.google.com/forum/#!forum/minikube-users)
-* [minikube-dev mailing list](https://groups.google.com/forum/#!forum/minikube-dev)
-* [Bi-weekly office hours, Mondays @ 10am PST](https://tinyurl.com/minikube-oh)
-
-* [Contributing](https://github.com/kubernetes/minikube/blob/master/CONTRIBUTING.md)
-* [Development Roadmap](https://github.com/kubernetes/minikube/blob/master/docs/contributors/roadmap.md)
 
 ## Installation
+
+```
+curl -Lo minikube http://kubernetes.oss-cn-hangzhou.aliyuncs.com/minikube/releases/v1.1.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+```
 
 See the [installation guide](https://kubernetes.io/docs/tasks/tools/install-minikube/). For the impatient, here is the TL;DR:
 
